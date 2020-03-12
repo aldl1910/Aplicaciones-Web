@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Práctica 03</title>
+    <link rel="stylesheet" type="text/css" href="Practica03.css">
+  </head>
+  <body>
+    <header>
+      <h1>Formularios HTML5</h1>
+      <h2>Práctica 03 - Lenguaje HTML5</h2>
+    </header>
+    <article>
+      <section>
+        <hr>
+        <form method="post" name="f-login">
+          <p>Nombre:
+            <input type="text" class="firstname" value="">
+          </p>
+          <hr>
+          <p>Apellidos:
+            <input type="text" class="lastname" value="">
+          </p>
+          <hr>
+          <p>Dirección:
+            <input type="text" class="direction" value="">
+          </p>
+          <hr>
+          <p>Email:
+            <input type="email" class="mail" value="">
+          </p>
+          <hr>
+          <p>URL:
+            <input type="url" class="URL" value="Escribe la URL de tu página">
+          </p>
+          <hr>
+          <p>Fecha:
+            <input type="date" class="fecha" value="">
+          </p>
+          <hr>
+          <p>Mes:
+            <input type="month" class="mes" value=>
+          </p>
+          <hr>
+          <p>Semana:
+            <input type="week" class="semana" value="">
+          </p>
+          <hr>
+          <p>Número (min -10, max 10):
+            <input type="number" class="numero" value="0" min="-10" max="10">
+          </p>
+          <hr>
+          <p>Intervalo (min 0, max 10):<span class="cero">0</span><span class="cinco">5</span>
+            <input
+            type="range"
+            class="intervalo"
+            value="0" min="0"
+            max="10"
+            autocomplete="off">
+            <span class="diez">10</span>
+          </p>
+          <hr>
+          <p>Teléfono:
+            <input type="tel" class="telefono" value="">
+          </p>
+          <hr>
+          <p>Término de Búsqueda:
+            <input type="search" class="busqueda" value="">
+          </p>
+          <hr>
+          <p>Selecciona Color:
+            <input type="color" class="color" value="">
+          </p>
+          <hr>
+          <p>Tiempo Llegada:
+            <input type="time" class="llegada" value="">
+          </p>
+          <hr>
+          <p>Contraseña:
+            <input type="password" class="contraseña" value="">
+          </p>
+          <hr>
+          <p>Forma de Pago:
+            <input
+            type="radio"
+            class="pago"
+            value="ContraReembolso"
+            checked>Contra Reembolso <br>
+            <input
+            type="radio"
+            class="pago2"
+            value="TarjetaCredito">Tarjeta Crédito <br>
+            <input
+            type="radio"
+            class="pago2"
+            value="Paypal">Paypal
+          </p>
+          <hr>
+          <p>Deportes Favoritos:
+            <input
+            type="checkbox"
+            class="deportes"
+            value="Futbol">Fútbol <br>
+            <input
+            type="checkbox"
+            class="deportes2"
+            value="Baloncesto">Baloncesto <br>
+            <input
+            type="checkbox"
+            class="deportes2"
+            value="Tenis">Tenis
+          </p>
+          <hr>
+          <p>Selecciona un Color:
+            <select class="color2" name="CuadrosdeColor">
+              <option>Verde</option>
+              <option>Negro</option>
+              <option>Rojo</option>
+              <option selected>Azul</option>
+            </select>
+          </p>
+          <hr>
+          <p>Comentarios:</p>
+          <textarea
+              rows="8" cols="50"
+              placeholder="Introducir comentario..."
+          ></textarea>
+
+          <hr>
+          <p>Adjuntar Fichero:
+            <input type="file" class="adficheros" value="">
+          </p>
+          <hr>
+          <p>
+            <input type="reset" class="reset" value="Reestablecer">
+            <input type="submit" class="enviar" value="Enviar">
+          </p>
+        </form>
+      </section>
+    </article>
+    <footer>
+      <p>© 2016 IES Ntra. Sra. Los Remedios. All rights reserved</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo de formularios con HTML</title>
+  </head>
+  <body>
+    <form method="post" name="form-basic">
+      <input type="text" name="nombre" value="Escribre tu nombre" size="15" maxlength="15">
+      <input type="text" name="apellidos" value="Escribre tu apellido" size="20" maxlength="20" disabled>
+      <input type="text" name="provincia" value="Escribre tu provincia"size="15" maxlength="15">
+      <textarea name="aficiones" rows="8" cols="20" disabled></textarea>
+    </form>
+
+    <h3>Bienvenido a la Deep Web</h3>
+    <form method="post" name="f-login">
+      <p>Nombre de usuario:</p>
+      <input type="text" name="username" value="">
+      <p>Clave:</p>
+      <input type="password" name="userpass" value="">
+    </form>
+
+    <form class="" action="index.html" method="post">
+      <p>Elige tu jugador favorito:</p>
+      <input type="radio" name="player" value="karpov"> karpov
+      <input type="radio" name="player" value="karsparov"> karsparov
+      <input type="radio" name="player" value="Anand"> Anand
+      <input type="radio" name="player" value="Fisher" checked> Fisher
+    </form>
+
+    <form class="" action="index.html" method="post">
+      <p>Indique su profesión (escoja todas las que procedan):</p>
+      <input type="checkbox" name="médico"> Médico <br>
+      <input type="checkbox" name="programador" checked> Programador <br>
+      <input type="checkbox" name="abogado"> Abogado <br>
+      <input type="checkbox" name="ingeniero"> Ingeniero
+      <center><input type="submit" value="enviar"></center>
+    </form>
+
+    <form class="" action="index.html" method="post">
+      <h3>Cuadros de selección</h3>
+      <p>Elija un color:</p>
+    <select name="Cuadros de color">
+      <option>Verde</option>
+      <option selected>Negro</option>
+      <option>Rojo</option>
+      <option>Azul</option>
+    </select>
+    <input type="submit" value="enviar">
+    </form>
+
+    <form class="" action="index.html" method="post">
+      <h3>Formulario de identificación</h3>
+      <p>Introduzca su nombre:
+      <input type="text" name="nombre"></p>
+    <p>Sexo:
+    <input type="checkbox" name="sexo">Hombre
+    <input type="checkbox" name="sexo">Mujer
+    <input type="checkbox" name="sexo">De vez en cuando
+    </p>
+    <p>Cuestionario:<input type="text" size="50" maxlength="100"></p>
+    <br>
+    <input type="reset" value="restablecer">
+    <input type="submit" value="enviar">
+    </form>
+  </body>
+</html>

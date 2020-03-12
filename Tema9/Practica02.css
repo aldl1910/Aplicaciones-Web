@@ -1,0 +1,40 @@
+body {font-family: "Verdana", sans-serif;}
+header {
+  color: white;
+  border: 1px solid grey;
+  background-color: grey;
+  margin-top: 1%;
+  margin-bottom: 0.4%;
+  padding: 0.4%;
+}
+nav {
+  border: 1px solid grey;
+  padding: 0.1%;
+}
+a {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 0.5%;
+}
+h1 , h2 , p {
+  margin-left: 0.5%;
+}
+article {
+  border: 1px solid grey;
+  margin-top: 0.4%;
+  padding-bottom: 0.4%;
+}
+section {
+  border: 1px solid grey;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 0.4%;
+}
+footer {
+  background-color:grey;
+  color: white;
+  margin-top: 0.4%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: 0.5%;
+}

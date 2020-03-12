@@ -1,0 +1,94 @@
+body {
+  font-family: "Aria", sans-serif;
+}
+header {
+  border: 1px solid grey;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 0.4%;
+  padding-left: 0.5%;
+}
+h1 {
+  font-size: 3.5em;
+  font-weight: normal;
+}
+h2 {
+  font-size: 3em;
+  font-weight: normal;
+}
+article {
+  border: 1px solid grey;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 0.4%;
+  padding-left: 0.5%;
+}
+section {
+  border: 1px solid grey;
+  margin-top: 1.2%;
+  margin-right: 1.3%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+hr {
+  color: grey;
+  margin-left: -0.4%;
+}
+input {
+  padding-top: 0.2em;
+  padding-bottom: 0.4em;}
+p {
+  margin-top: -0.3%;
+  margin-bottom: -0.2%;}
+
+.submit {margin-bottom: 1%}
+.firstname {margin-left: 23.3em;}
+.lastname {margin-left: 22.7em; padding-right: 13em;}
+.direction {margin-left: 22.6em; padding-right: 13em;}
+.mail {margin-left: 24.6em;}
+.URL {margin-left: 25.2em;}
+.fecha {margin-left: 24.3em;}
+.mes {margin-left: 25.4em;}
+.semana {margin-left: 23.2em;}
+.numero {margin-left: 13.7em;}
+.intervalo {margin-left: 28.5em; width: 60em;}
+.cero {margin-left: 12.4em;}
+.cinco {margin-left: 24.1em;}
+.diez {margin-left: 73em;}
+.telefono {margin-left: 23.2em;}
+.busqueda {margin-left: 16em;}
+.color {margin-left: 18.7em;}
+.llegada {margin-left: 19.3em;}
+.contraseña {margin-left: 21.7em;}
+.pago {margin-left: 19.6em;}
+.deportes {margin-left: 17.7em;}
+.seleccolor {margin-left: 17.2em;}
+.adficheros {margin-left: 19.2em;}
+.pago2 {margin-left: 28.5em;}
+.deportes2 {margin-left: 28.5em;}
+.color2 {margin-left: 17.2em;}
+.reset {
+  margin-left: 28.7em;
+  margin-bottom: 3em;
+  background-color: #e8e8e8;
+  border: 1px solid #9a9a9a;}
+.enviar {
+  margin-left: 0.8em;
+  background-color: #e8e8e8;
+  border: 1px solid #9a9a9a;}
+textarea {
+  margin-top: -1.2%;
+  margin-left: 28.6em;
+  box-sizing: border-box;
+  width: 40%;
+  }
+  footer {
+    border: 1px solid grey;
+    padding-top: 0.85em;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 1.5em;
+    padding-left: 1.4%;
+  }

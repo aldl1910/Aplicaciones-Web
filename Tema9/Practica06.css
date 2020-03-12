@@ -1,0 +1,36 @@
+body {font-family: "Aria", sans-serif;}
+table {
+width: 100%;
+border-collapse: collapse;
+}
+th, td {
+padding: 7px;
+text-align: left;
+width: 45%;
+}
+tr {
+border-top: 1px solid lightgrey;
+}
+header {
+border: 1px solid;
+font-family: arial;
+padding-left: 10px;
+}
+article {
+margin-top: 5px;
+border: 1px solid ;
+}
+section {
+border: 1px solid grey;
+margin: 12px;
+font-family: arial;
+padding: 10px;
+}
+footer {
+border: 1px solid;
+padding: 15px 0px 27px 10px;
+margin-top: 7px;
+font-family: arial;}
+h2 {
+margin-top: -31%;
+margin-bottom: 0px;}
